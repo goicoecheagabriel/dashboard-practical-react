@@ -2,7 +2,7 @@ import { useState, useContext } from 'react'
 // import reactLogo from './assets/react.svg'
 import './App.css'
 import './assets/scss/app.scss';
-import Dashboard from '../pages/Dashboard'
+import Dashboard from './pages/Dashboard'
 import {
   BrowserRouter as Router,
   Route,
@@ -15,7 +15,7 @@ import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
 import SideBarContainer from './components/Layout/SideBarContainer';
 import { MenuContext } from "./context/menu"
-import Users from '../pages/Users';
+import Users from './pages/Users';
 
 
 function App() {

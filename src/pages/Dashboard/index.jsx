@@ -1,4 +1,4 @@
-import Breadcrumb from "../../src/components/Common/Breadcrumb";
+import Breadcrumb from "../../components/Common/Breadcrumb";
 import {
     Container,
     Row,
@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import CardComp from "./CardComp";
 import MetricsComp from "./MetricsComp";
 import ColumnChart from "./ColumnChart";
-import { periodData } from "../../data";
+import { periodData } from "../../../data";
 import { AdComp } from './AdComp';
 import { ActivityComp } from './ActivityComp';
 import { CityRankings } from './CityRankings';
